@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+@media screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        color: rgba(0, 0, 0, 0.685);
+    }
+    
+    
+    .cabecalho {
+        display: none;
+    }
+
+    .cabecalho-celular {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #3ca55c88;
+    }
+    
+
+    
+    #logo  {
+        width: 70px;
+    }
+
+    #botao-menu {
+        background: none;
+        text-decoration: none;
+        border: 0;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.747);
+        height: 82vh;
+        width: 100vw;
+        padding: 2vw;
+    
+    }
+    
+    .con-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+        width: 30vw;
+        text-align: center;
+    
+    }
+    
+    h1 {
+        font-size: 3em;
+        margin-bottom: 1vh;
+    }
+    
+    h2 {
+        font-size: 1em;
+    }
+
+    #botao {
+        background: green;
+        color: whitesmoke;
+        padding: 10px;
+        margin-top: 10vh;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    h3 {
+        font-size: 0.8em;
+        margin-top: 15vh;
+        font-style: italic;
+    }
+    
+    
+    .con-imagem {
+        display: none;
+    }
+
+    .con-imagem-cel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+        width: 80vw;
+    }
+    
+    #img-capa {
+        height: 60vh;
+        width: 60vw;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
+    }   
+
+
+
+
+}
