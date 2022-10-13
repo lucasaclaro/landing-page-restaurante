@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/cardapio-pc.css">
     <title>Cardápio</title>
 </head>
@@ -40,11 +41,17 @@
 
     <section>
         <div class="destaque">
-            <img src="imagens/pratoUm.jpg" alt="Prato vegano">
+            <span onclick="mudarFoto()" id="direita" class="material-icons">chevron_left</span>
+            <img id="pratoUm" src="imagens/pratoUm.jpg" alt="Prato vegano">
+            <img id="pratoDois" src="imagens/pratoDois.jpg" alt="Prato vegano">
+            <span onclick="mudarFoto()" id="direita" class="material-icons">chevron_right</span>
+
+
         </div>
     </section>
 
 
-    
+    <script src="scripts/script.js"></script>
+
 </body>
 </html>
