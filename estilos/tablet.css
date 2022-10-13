@@ -24,6 +24,10 @@
         border-bottom: 2px solid black;
         margin-bottom: 2vh;
     }
+
+    .cab-links-celular {
+        display: none;
+    }
     
     .cab-imagens {
         display: flex;
@@ -96,6 +100,11 @@
         margin-top: 10vh;
         border-radius: 10px;
         cursor: pointer;
+    }
+
+    #botao:hover {
+        background: rgb(165, 162, 162);
+        color: black;
     }
     
     h3 {

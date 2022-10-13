@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.cabecalho-celular {
+    display: none;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    background: #3ca55c88;
+    padding: 2vh 2vw;
+    border-bottom: 2px solid black;
+}
+
+.cab-links-celular {
+    display: none;
+}
+
+.cab-imagens {
+    display: flex;
+    width: 20vw;
+}
+
+#logo  {
+    width: 70px;
+}
+
+.cab-links {
+    width: 80vw;
+}
+
+
+.link-cabecalho {
+    width: 50px;
+}
+
+.link-cabecalho:hover {
+    border-top: 2px solid black;
+}
+
+
+.cab-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.destaque {
+
+}
+
+.destaque img {
+    width: 70vw;
+    height: 70vh;
+    border-radius: 2px;
+}
