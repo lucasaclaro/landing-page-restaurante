@@ -67,9 +67,13 @@ section {
 }
 
 .destaque img {
-    width: 70vw;
-    height: 70vh;
+    width: 50vw;
+    height: 60vh;
     border-radius: 2px;
+}
+
+#pratoUm {
+    display: flex;
 }
 
 #pratoDois {

@@ -15,13 +15,5 @@ function mudarFoto() {
     pratoDois = document.querySelector('#pratoDois')
     pratoTres = document.querySelector('#pratoTres')
 
-    if (pratoUm.style.display == 'flex' && pratoDois.style.display == 'none' && pratoDois.style.display == 'none') {
-        pratoUm.style.display = 'none'
-        pratoDois.style.display = 'flex'
-
-    } else if (pratoUm.style.display == 'none' && pratoDois.style.display == 'flex' && pratoDois.style.display == 'none') {
-        pratoUm.style.display = 'flex'
-        pratoDois.style.display = 'none'
-
-    } 
+    pratoUm.display.style = 'none'
 }
